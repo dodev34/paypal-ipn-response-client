@@ -81,7 +81,7 @@ class EmailResponse
 	private function isTemplateExist()
 	{
 		if (file_exists(sprintf(dirname(__FILE__).'/../email_templates/%s', $this->template))){
-			return sprintf(dirname(__FILE__).'/email_templates/%s', $this->template);
+			return sprintf(dirname(__FILE__).'/../email_templates/%s', $this->template);
 		}
 	}
 }
