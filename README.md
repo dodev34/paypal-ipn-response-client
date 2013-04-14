@@ -40,8 +40,7 @@ listener.
 
 Once you have your sandbox account setup, you simply create a PHP script that
 will be your IPN listener. In that script, use the `IpnListener()` class as shown
-below. For a more thoroughly documented example, take a look at the 
-`example/ipn.php` script in the source code.
+below.
 
     <?php
 
