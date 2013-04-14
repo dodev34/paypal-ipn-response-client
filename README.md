@@ -49,7 +49,7 @@ below.
     // Template email for client response.
     define('EMAIL_TEMPLATE','exemple.html');
     
-    // Class email response
+    // Class IPN listener
     include('paypal/Classes/IpnListener.php');
     // Class email response
     include('paypal/Classes/EmailResponse.php');
