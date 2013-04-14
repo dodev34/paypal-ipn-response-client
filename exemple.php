@@ -26,6 +26,8 @@ Here I am turning on PHP error logging to a file called "ipn_errors.log". Make
 sure your web server has permissions to write to that file. In a production 
 environment it is better to have that log file outside of the web root.
 */
+error_reporting(E_ALL);
+ini_set('display_errors','On');
 ini_set('log_errors', true);
 ini_set('error_log', dirname(__FILE__).'/logs/error.log');
 
