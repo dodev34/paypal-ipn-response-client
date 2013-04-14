@@ -50,9 +50,9 @@ below.
     define('EMAIL_TEMPLATE','exemple.html');
     
     // Class email response
-    include(dirname(__FILE__).'/Classes/IpnListener.php');
+    include('paypal/Classes/IpnListener.php');
     // Class email response
-    include(dirname(__FILE__).'/Classes/EmailResponse.php');
+    include('paypal/Classes/EmailResponse.php');
 
     $listener = new IpnListener();
     $listener->use_sandbox = true;
