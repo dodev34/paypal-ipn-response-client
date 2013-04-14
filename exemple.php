@@ -5,11 +5,7 @@
  *  This shows a basic example of how to use the IpnListener() PHP class to 
  *  implement a PayPal Instant Payment Notification (IPN) listener script.
  *
- *  For a more in depth tutorial, see my blog post:
- *  http://www.micahcarrick.com/paypal-ipn-with-php.html
  *
- *  This code is available at github:
- *  https://github.com/Quixotix/PHP-PayPal-IPN
  *
  *  @package    PHP-PayPal-IPN
  *  @author     Micah Carrick
