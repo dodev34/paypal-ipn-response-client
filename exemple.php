@@ -38,7 +38,7 @@ define('EMAIL_TEMPLATE','exemple.html');
 
 
 // Class email response
-include(dirname(__FILE__).'/Classes/Ipnlistener.php');
+include(dirname(__FILE__).'/Classes/IpnListener.php');
 // Class email response
 include(dirname(__FILE__).'/Classes/EmailResponse.php');
 // instantiate the IpnListener class
